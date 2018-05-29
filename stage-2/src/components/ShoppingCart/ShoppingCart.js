@@ -20,7 +20,7 @@ class ShoppingCart extends Component {
     console.log("CART" + this.state.shoppingCart);
     let shoppingCartDisplay = this.state.shoppingCart.map((element, index) => {
       return (
-        <div className="shopping-cart-product-container" key={index}>
+        <div className="shopping-cart-product-container" key={index}pmpm>
           <img src={element.image} alt="" />
           <div className="shopping-cart-info">
             <h2>{element.title}</h2>
